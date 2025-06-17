@@ -31,3 +31,28 @@ const myFunction = function(){
     console.log("Hello Suyog");
     
 }
+
+
+// -+-+-+-+-+-+-+-+--+-++-++-+-+-++-++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-++-+-+-+-+-+-+-+-+-+-+-+++-+-+-+-+-+--+-+-++-+-+--++-++
+
+// stack(primitive), Heap(Non-primitive)
+
+let myYoutubename = "SuyogBhalerav"
+let anothername = myYoutubename
+anothername = "ssgb tv"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+let userOne = {
+ email:"user@gmail.com",
+ upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ssgb@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
